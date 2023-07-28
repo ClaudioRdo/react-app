@@ -1,4 +1,4 @@
-import ProductCard, { ProductButtons, ProductImage, ProductTitle } from '../components/ProductCard';
+import { ProductCard, ProductButtons, ProductImage, ProductTitle } from '../components';
 
 const product = {
   id: '1',
@@ -15,9 +15,9 @@ const ShoppingPage = () => {
     }}>
       <h1>Shopping Store</h1>
       <hr />
-      <ProductCard product={ product } >
+      <ProductCard product={product} >
         <ProductImage />
-        <ProductTitle title=''/>
+        <ProductTitle title='' />
         <ProductButtons />
       </ProductCard>
     </div>

@@ -10,9 +10,9 @@ interface Route {
 };
 
 //const Lazy1 = lazy(()=> import('../pages/LazyPage1'));
-const Lazy2 = lazy(()=> import('../pages/LazyPage2'));
-const Lazy3 = lazy(()=> import('../pages/LazyPage3'));
-const ShoppingPage = lazy(()=>import('../components-patterns/pages/ShoppingPage'));
+const Lazy2 = lazy(() => import('../pages/LazyPage2'));
+const Lazy3 = lazy(() => import('../pages/LazyPage3'));
+const ShoppingPage = lazy(() => import('../components-patterns/pages/ShoppingPage'));
 
 export const routes: Route[] = [
     {
@@ -31,6 +31,6 @@ export const routes: Route[] = [
         to: 'lazy3',
         path: '/lazy3',
         Component: Lazy3,
-        name: 'Lazy-3'        
+        name: 'Lazy-3'
     },
 ];
