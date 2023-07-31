@@ -20,6 +20,12 @@ const ShoppingPage = () => {
         <ProductTitle title='' />
         <ProductButtons />
       </ProductCard>
+
+      <ProductCard product={product} >
+        <ProductCard.Image />
+        <ProductCard.Title title='' />
+        <ProductCard.Buttons />
+      </ProductCard>
     </div>
   )
 }
