@@ -4,8 +4,9 @@ import { ProductContext } from "./ProductCard";
 import styles from '../styles/styles.module.css';
 
 export interface Props {
-    title?: string,
-    className?: string,
+    title?: string;
+    className?: string;
+    activeClass?: string;
     style?: React.CSSProperties;
 };
 

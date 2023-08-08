@@ -1,4 +1,5 @@
 import {ProductCard as ProductCardHOC} from './ProductCard';
+import { ProductCardHOCProps } from '../interfaces/interfaces';
 
 import { ProductTitle } from './ProductTitle';
 import { ProductButtons } from './ProductButtons';
